@@ -13,15 +13,12 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created by Pranshu on 16-07-2017.
- */
 
 public class WordAdapter extends ArrayAdapter<Word> {
 
     private int colorResourceId;
 
-    public WordAdapter(Context context, ArrayList<Word> words, int colorResourceid) {
+    WordAdapter(Context context, ArrayList<Word> words, int colorResourceid) {
         super(context, 0, words);
         colorResourceId = colorResourceid;
     }
@@ -40,12 +37,13 @@ public class WordAdapter extends ArrayAdapter<Word> {
             listView = LayoutInflater.from(getContext()).inflate(R.layout.item, parent, false);
         }
 
-        Word word = (Word) getItem(position);
+        Word word = getItem(position);
 
-        TextView defaultTextView = (TextView) listView.findViewById(R.id.itemtv1);
-        TextView sanskritTextView = (TextView) listView.findViewById(R.id.itemtv2);
-        ImageView imageView = (ImageView) listView.findViewById(R.id.imgv1);
+        TextView defaultTextView = listView.findViewById(R.id.item_tv1);
+        TextView sanskritTextView = listView.findViewById(R.id.item_tv2);
+        ImageView imageView = listView.findViewById(R.id.imgV1);
 
+        assert word != null;
         defaultTextView.setText(word.getDefaultTranslation());
         sanskritTextView.setText(word.getSanskritTranslation());
 
