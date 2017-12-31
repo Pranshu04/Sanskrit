@@ -1,4 +1,22 @@
 # Sanskrit
-Sanskrit is an Android app that provides the feature to learn basic daily used keywords in Sanskrit language and also audio playback of the keyword.
+Sanskrit is a sanskrit vocabulary application.
 
-<img src="https://github.com/Pranshu04/Sanskrit/blob/master/Images/Sanskrit.gif" height=500 width=300 >
+It is done with the help of Udacity's "Multi-screen Application" development tutorials.
+   
+
+ **Features:**
+ -   Sanskrit Translation along with English Translation
+ -   Audio for correct pronunciation by pressing on Each Translation
+ -   Tabbed navigation pattern for quick and easy navigation.
+ -   Design support for both portrait and landscape orientation.
+ 
+ 
+**What I have learned from this project:**
+
+  -  Planning an app design and navigation before coding.
+  -  Working with Intents and Activities.
+  -  View Recycling
+  -  Using Mediaplayer class, AudioManager Service and Audio focus
+  -  Navigating between sections using ViewPager and TabLayout.
+
+<br> </br>  <img src="https://github.com/Pranshu04/Sanskrit/blob/master/Images/Sanskrit.gif" height=500 width=300 >
