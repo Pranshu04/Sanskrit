@@ -1,7 +1,7 @@
 # Sanskrit
 Sanskrit is a sanskrit vocabulary application.
 
-It is done with the help of Udacity's "Multi-screen Application" development tutorials.
+It is done with the help of Udacity's [Android Basics: Multi-screen Apps](https://in.udacity.com/course/android-basics-multi-screen-apps--ud839).
    
 
  **Features:**
